@@ -1,0 +1,16 @@
+ocserv:
+  image: waltonmax/ocserv
+  ports:
+    - "4443:443/tcp"
+    - "4443:443/udp"
+  environment:
+    - VPN_DOMAIN=vpn.example.com
+    - VPN_NETWORK=10.20.30.0
+    - VPN_NETMASK=255.255.255.0
+    - LAN_NETWORK=192.168.0.0
+    - LAN_NETMASK=255.255.0.0
+    - VPN_USERNAME=waltonmax
+    - VPN_PASSWORD=waltonmax
+  cap_add:
+    - NET_ADMIN
+  restart: always
