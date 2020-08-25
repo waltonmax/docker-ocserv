@@ -31,6 +31,12 @@ ocserv:
 > - VPN status can be viewed via `occtl` command
 > - You can edit the config file [/etc/ocserv/ocserv.conf][3], then restart service.
 
+## iptables开放端口 filter
+```bash
+-A INPUT -p tcp -m tcp -m state --state NEW -m multiport --dports 4443 -m comment --comment ocserv_PORT -j ACCEPT
+-A INPUT -p udp -m udp -m state --state NEW -m multiport --dports 4443 -m comment --comment ocserv_PORT -j ACCEPT
+
+```
 ## up and running
 
 ```bash
