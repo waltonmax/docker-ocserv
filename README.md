@@ -97,3 +97,9 @@ AnyConnect ->
 [2]: http://www.gnutls.org/manual/html_node/certtool-Invocation.html
 [3]: http://www.infradead.org/ocserv/manual.html
 [4]: http://www.cisco.com/c/en/us/td/docs/security/vpn_client/anyconnect/anyconnect31/release/notes/anyconnect31rn.html
+
+软件下载: 
+    MAC 版本号:4.9.00086 (支持Catalina 10.15),下载地址: https://www.catpaws2012.com/download/anyconnect/anyconnect-macos-4.9.00086.dmg
+    MAC 老版本(Maverick/Yosemite),请使用老版本4.7.04056:下载地址: https://www.catpaws2012.com/download/anyconnect/anyconnect-macos-4.7.04056.dmg
+    Windows10(32/64位)系统：AnyConnect Mobile:版本号:4.9.00086, 下载地址: https://www.catpaws2012.com/download/anyconnect/anyconnect-win-4.9.00086.msi
+    Win7/8老版本操作系统：AnyConnect Mobile:版本号:4.7.04056, 下载地址: https://www.catpaws2012.com/download/anyconnect/anyconnect-win-4.7.04056.msi
